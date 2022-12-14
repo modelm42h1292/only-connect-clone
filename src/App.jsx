@@ -10,13 +10,11 @@ function App() {
     player2: ''
   })
 
-
-
-  const changePlayerName = (newname) => {
-    console.log(newname)    
-    setPlayerNames(newname)
-  }
-
+  const [playerScore, setPlayerScore] = useState({
+    player1: 0,
+    player2: 0
+  })
+  const [lang, setLang] = useState('eng')
 
   function navigatePages () {
     setVisible(page => pages[(pages.indexOf(page) + 1)])
@@ -34,9 +32,9 @@ function App() {
 
   return (
     <div className="App">
-      {isVisible == 1 && <Menu navigatePages={navigatePages} handleChange={changePlayerName} playerNames={playerNames}/>}
-      {isVisible == 2 && <Question navigatePages={navigatePages} toMainMenu={toMainMenu} playerNames={playerNames}/>}
-      {isVisible == 3 && <Endscreen toMainMenu={toMainMenu}/>}
+      {isVisible == 1 && <Menu navigatePages={navigatePages} handleChange={setPlayerNames} playerNames={playerNames} lang={lang} setLang={setLang}/>}
+      {isVisible == 2 && <Question navigatePages={navigatePages} toMainMenu={toMainMenu} playerNames={playerNames} setPlayerScore={setPlayerScore} playerScore={playerScore} lang={lang}/>}
+      {isVisible == 3 && <Endscreen toMainMenu={toMainMenu} playerScore={playerScore} playerNames={playerNames} setPlayerScore={setPlayerScore}/>}
     </div>
   )
 }

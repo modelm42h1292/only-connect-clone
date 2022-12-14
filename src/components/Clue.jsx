@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import QuestionMeter from "./QuestionMeter";
 
 function Clue (props) {
-    console.log(props)
+    
+    useEffect(() => {
+        if (!props.pause) return
+        clearInterval(props.meterInterval)
+    })
+
     return (
         <div class='col-span-1'>
         <div class='grid grid-cols-1 place-items-center p-2'>
