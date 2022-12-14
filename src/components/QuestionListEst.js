@@ -1,6 +1,6 @@
 const questionList = [
   {
-    question: 'Arva kuni 4 vihje pealt ühine nimetaja',
+    question: 'Arva kuni 4 vihje pealt ühine nimetaja. Näidis:',
     clue1: 'Leht',
     clue2: 'Tüvi',
     clue3: 'Oks',
@@ -48,7 +48,7 @@ const questionList = [
     answer: 'Vitamiinide keemilised põhinimetused'
   },
   {
-    question: 'Arva kuni 3 vihje pealt viimane element järjestuses',
+    question: 'Arva kuni 3 vihje pealt viimane element järjestuses. Näidis:',
     clue1: 'Tallinn',
     clue2: 'Tartu',
     clue3: 'Narva',
@@ -56,7 +56,7 @@ const questionList = [
     answer: 'seletus: Eesti linnad kahanevas rahvastikuarvus'
   },
   {
-    question: 'Küsimus 5 - viimane element',
+    question: 'Küsimus 1 - viimane element',
     clue1: 'K. E. von Baer',
     clue2: 'Paul Keres',
     clue3: 'Jakob Hurt',
@@ -64,7 +64,7 @@ const questionList = [
     answer: 'seletus: Isikud 2, 5, 10, 25 kroonistel kupüüridel'
   },
   {
-    question: 'Küsimus 6 - viimane element',
+    question: 'Küsimus 2 - viimane element',
     clue1: '"Mere Lapsed"',
     clue2: '"Diamond of Night"',
     clue3: '"Once in a Lifetime"',
@@ -72,7 +72,7 @@ const questionList = [
     answer: 'seletus: Eesti laulud Eurovisioonil 1998-2001'
   },
   {
-    question: 'Küsimus 6 - viimane element',
+    question: 'Küsimus 3 - viimane element',
     clue1: 'Saksa keisririik',
     clue2: 'Nõukogude venemaa',
     clue3: 'Natsi-Saksamaa',
@@ -80,7 +80,7 @@ const questionList = [
     answer: 'seletus: Eesti Vabariigi okupandid pärast 1. maailmasõda'
   },
   {
-    question: 'Küsimus 6 - viimane element',
+    question: 'Küsimus 4 - viimane element',
     clue1: 'Portselan',
     clue2: 'Pärl',
     clue3: 'Rubiin',
@@ -88,7 +88,7 @@ const questionList = [
     answer: 'seletus: 20., 30., 40., 50. pulma-aastapäeva nimetused'
   },
   {
-    question: 'Küsimus 6 - viimane element',
+    question: 'Küsimus 5 - viimane element',
     clue1: 'Nimisõna: kübar',
     clue2: 'Nimisõna: laegas',
     clue3: 'Nimisõna: mõõk',
